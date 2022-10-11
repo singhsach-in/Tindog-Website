@@ -1,0 +1,162 @@
+/*--------------------- TAG Selector ----------------------*/
+body {
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+/*----------------- Download-Button-Everywhere --------------------- */
+.Download-Button {
+   margin: 5% 3% 5% 0; /* TITLE & CTA PAGE */
+}
+.section-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+/*--------------------- container -------------------*/
+.container-fluid {
+    padding: 7% 15% ; /* TOP , RIGHT-LEFT, BOTTOM */
+  }
+
+/*--------------------- NAV-BAR ----------------------*/
+
+.navbar {
+  padding-bottom: 4.5rem;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+#title .nav-link {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+/*--------------------- TITLE-PAGE ----------------------*/
+#title {
+  background-color: #ff4c68;
+  text-align: left;
+}
+#title .container-fluid {
+    padding: 3% 15% 7%;
+}
+#title h1 {
+  color: white;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+#title li {
+  padding: 0 20px;
+}
+#title img {
+  background-color: white;
+  width: 30%;
+  border-radius: 80px;
+  transform: rotate(30deg);
+  position: absolute;
+  right: 18%;
+}
+@media (max-width: 1200px) and (min-width: 1002px) {
+  #title img {
+    transform: rotate(0deg);
+    width: 33%;
+  }
+}
+@media (max-width: 1150px) {
+  #title {
+    text-align: center;
+  }
+  #title img {
+    position: static;
+    width: 90%;
+    transform: rotate(0deg);
+  }
+}
+
+/*------------- FEATURES-PAGE --------------------------*/
+#features {
+  
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+.feature {
+  padding: 5%;
+}
+.feature h3 {
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 15px;
+}
+.feature p {
+  color: #bfbfbf;
+}
+.feature i {
+  color: #ef8172;
+}
+.feature i:hover {
+  color: #ff4c68;
+}
+
+/*------------- TESTIMONIALS-PAGE --------------------------*/
+#testimonials {
+  color: white;
+  background-color: #ef8172;
+}
+.testimonial-text {
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+.testimonial-img {
+  margin: 20px;
+  width: 10%;
+  border-radius: 100%;
+}
+
+/*------------- PRESS-PAGE --------------------------*/
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+#press img {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/*------------- PRICING-PAGE --------------------------*/
+#pricing {
+  
+  text-align: center;
+}
+.pricing-head {
+  margin-bottom: 40px;
+}
+.pricing-h2 {
+  font-size: 3rem;
+  font-weight: 900
+}
+
+/*------------- CTA-PAGE --------------------------*/
+#cta {
+  background-color: #ff4c68;
+  
+}
+#cta h1 {
+  color: white;
+  width: 65%;
+  margin: auto;
+}
+
+/*------------- FOOTER-PAGE --------------------------*/
+#footer {
+
+}
+#footer i {
+  margin: 10px;
+}
+.social-media {
+  margin-bottom: 20px;
+}
